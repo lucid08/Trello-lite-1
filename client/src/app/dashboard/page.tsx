@@ -118,7 +118,7 @@ export default function DashboardPage() {
                     {board.title}
                   </h3>
                   <p className="text-xs md:text-sm text-gray-500">
-                    {board.lists?.length || 0} lists • {board.tasks?.length || 0} tasks
+                    {board.lists?.length || 0} lists 
                   </p>
                 </Link>
                 <div className="absolute bottom-4 right-4 flex gap-2 opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity">
